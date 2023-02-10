@@ -10,3 +10,4 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 /.vs/GameDataReader/v17
+/out/build/x64-debug/.ninja_deps
