@@ -12,12 +12,8 @@
     ]
   },
   "ExpandedNodes": [
-    "",
-    "\\build\\debug",
-    "\\out",
-    "\\out\\build",
-    "\\out\\build\\x64-debug"
+    ""
   ],
-  "SelectedNode": "\\out\\build\\x64-debug\\SDL2.dll",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
