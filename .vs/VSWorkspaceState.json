@@ -12,8 +12,11 @@
     ]
   },
   "ExpandedNodes": [
-    ""
+    "",
+    "\\out",
+    "\\out\\build",
+    "\\out\\build\\x64-debug"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\GameDataReader.cpp",
   "PreviewInSolutionExplorer": false
 }

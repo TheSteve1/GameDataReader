@@ -8,40 +8,48 @@
 			"path" : "GameDataReader.pdb"
 		}
 	],
-	"backtrace" : 1,
+	"backtrace" : 2,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
+			"_add_executable",
 			"add_executable",
 			"target_link_libraries",
 			"set_property"
 		],
 		"files" : 
 		[
+			"C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
 			{
-				"file" : 0
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
+				"line" : 591,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
 				"line" : 14,
 				"parent" : 0
 			},
 			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 15,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 17,
+				"command" : 3,
+				"file" : 1,
+				"line" : 16,
 				"parent" : 0
 			}
 		]
@@ -61,7 +69,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "C:/Users/stefa/source/libs/SDL2-2.26.3/cmake/../include"
 				}
@@ -71,7 +79,7 @@
 			{
 				"backtraces" : 
 				[
-					3
+					4
 				],
 				"standard" : "20"
 			},
@@ -95,12 +103,12 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 3,
 				"fragment" : "C:\\Users\\stefa\\source\\libs\\SDL2-2.26.3\\cmake\\..\\lib\\x64\\SDL2.lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 3,
 				"fragment" : "C:\\Users\\stefa\\source\\libs\\SDL2-2.26.3\\cmake\\..\\lib\\x64\\SDL2main.lib",
 				"role" : "libraries"
 			},
@@ -138,13 +146,13 @@
 	"sources" : 
 	[
 		{
-			"backtrace" : 1,
+			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "GameDataReader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 1,
+			"backtrace" : 2,
 			"path" : "GameDataReader.h",
 			"sourceGroupIndex" : 1
 		}

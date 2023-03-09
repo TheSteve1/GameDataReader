@@ -3,12 +3,11 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-set(CMAKE_TOOLCHAIN_FILE "C:/Users/stefa/Documents/GitHub/vcpkg/scripts/buildsystems/vcpkg.cmake")
+set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 project ("GameDataReader")
 
 find_package(SDL2 REQUIRED)
-
 
 # Add source to this project's executable.
 add_executable (GameDataReader  "GameDataReader.cpp" "GameDataReader.h")
